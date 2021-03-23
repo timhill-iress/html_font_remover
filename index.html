@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Util to remove font style from HTML code. For Xplan users." />
+    <meta name="author" content="Tim Hill" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    <title></title>
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="index.js"></script>
+</head>
+<body>
+<h1>Utility to remove font styles from HTML code.</h1> 
+<h2>for Xplan users working with managed content.</h2>
+
+<h3>1. Paste your HTML here</h3>
+<div id="div-html-box" contenteditable="true">
+<span>paste here</span>
+</div>
+
+<button id="btn-remove-font-family">Remove font-family styles</button>
+
+
+<h3>2. Paste your HTML source here</h3>
+<textarea id="textbox-html-box">
+    <span style="font-family: 'Times New Roman', Times, serif;">just font</span>
+
+    <span style="color: red;"><span style="font-family: Times New Roman', Times, serif;;">font and colour</span></span>
+    
+    <ul>
+        <li><span style="color: red;"><span style="font-family: 'Times New Roman', Times, serif;">Item 1 - font and colour</span></span>
+        </li>
+        <li><span style="font-family: 'Times New Roman', Times, serif;">Item 2 - font and colour</span>
+        </li>
+    </ul>
+    <span style="color: red"><span style="font-family: Times New Roman', Times, serif;">font and colour</span></span>
+</textarea>
+<button id="btn-remove-font-family2">Remove font-family styles</button>
+
+
+<h3>Test HTML</h3>
+<span style="font-family: 'Times New Roman', Times, serif;">just font</span>
+
+<span style="color: red;"><span style="font-family: Times New Roman', Times, serif;;">font and colour</span></span>
+
+<ul>
+    <li><span style="color: red;"><span style="font-family: 'Times New Roman', Times, serif;">Item 1 - font and colour</span></span>
+    </li>
+    <li><span style="font-family: 'Times New Roman', Times, serif;">Item 2 - font and colour</span>
+    </li>
+</ul>
+<span style="color: red"><span style="font-family: Times New Roman', Times, serif;">font and colour</span></span>
+</p>
+<div id="workingspace">
+
+</div>
+</body>
+</html>
